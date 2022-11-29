@@ -1,0 +1,38 @@
+.corpo1{
+    /* display: flex; */
+    /* display: flex; */
+    background-color: rgb(37, 37, 37);
+    color: white;
+    align-items: center;
+
+}
+main{
+    background-color: rgb(37, 37, 37);
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   /* box-shadow: 16px 20px 16px rgb(8, 8, 48);*/
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-col-b{
+    display: flex;
+ 
+    align-items: flex-end;
+    font-size: 3.5rem;
+   /* box-shadow: 16px 20px 16px rgb(8, 8, 48);*/
+}
+
+.flex-col-a{
+    display: flex;
+ 
+    align-items: flex-start;
+   /* box-shadow: 16px 20px 16px rgb(8, 8, 48);*/
+}

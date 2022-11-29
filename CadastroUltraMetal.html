@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Ounvintes</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="preto_branco">
+    <main class="container">
+    <h1 id="facefonte" style="text-align: center; font-size: 4.1rem;">RADIO ULTRA METAL</h1>
+    <h3><a href="UltraMetal.html" style="color: rgb(78, 139, 180);">Página Inicial</a></h3>
+    <h3 style="text-align: center;">CADASTRO(COMPLETE A SEGUIR):</h3>
+    <br>
+    <form action="cadastroDeOuvinte.php" method="post">
+
+        <section id="haltura">
+            
+            <article>
+                <label for="nomeDoOuvinte">Nome:</label>
+                <input type="text" id="nomeDoOuvinte" name="nomeDoOuvinte"
+                style="width: 300px" required minlength="2" class="form-control">&nbsp;
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome"
+                style="width: 423px;" required minlength="2" class="form-control">&nbsp;
+
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento"
+                style="width:125px" required class="form-control">&nbsp;
+
+            </article>
+            <br>
+        </section>
+        
+        <section id="haltura">
+            <article>
+                <label for="email">E-mal:</label>
+                <input type="email" name="emailDoOuvinte" id="emailDoOuvinte" style="width: 420px;"
+                 class="form-control">&nbsp;
+
+                 <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" style="200px"
+                required class="form-control" minlength="6"
+                maxlength="12">&nbsp;
+
+                <label for="telefone">Fone:</label>
+                <input type="text" name="telefone" id="telefone" style="146"
+                 required class="form-control">&nbsp;
+
+            </article>
+            <br>
+        </section>
+        
+        <section>
+            <article id="haltura">
+
+                <label for="bandasPreferidas">Digite as suas Bandas Preferidas</label>
+                <br>
+                <textarea name="bandasPreferidas" id="bandasPreferidas" cols="70" rows="4" 
+                style="border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 19px;"></textarea>
+            </article>
+       
+        </section>
+        <br><br>
+    <section style="text-align:center;" id="facefonte">
+        <button type="submit" name="registrar" 
+        style="padding: 18px; color: rgb(231, 231, 14); font-size: 22px;
+         background-color: rgb(23, 17, 114); font-family: 'maiden.ttf';">Registrar o cadastro</button>
+        <button type="reset" name="resetar" 
+        style="padding: 18px; color: rgb(231, 231, 14); font-size: 22px;
+        background-color: rgb(143, 9, 9) ; font-family: 'maiden.ttf';">Apagar o Preenchimeto do cadastro</button>
+    </section>
+    </form>
+    </main>
+</body>
+</html>

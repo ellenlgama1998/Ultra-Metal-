@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="preto_branco">
+    <main class="container">
+        <h1 id="facefonte" style="text-align: center; font-size: 4.1rem;">RADIO ULTRA METAL</h1>
+    <h3><a href="UltraMetal2.html" style="color: rgb(78, 139, 180);">Página Inicial</a></h3>
+    <h3 style="text-align: center;">PEÇA A SUA MÚSICA, DIGITE SUA MENSAGEM E/OU O SEU RECADO:</h3>
+    <br>
+        <form action="pedidoMusical.php">
+            <section id="haltura">
+                <article>
+                    <label for="nomeDoOuvinte">Nome:</label>
+                    <input type="text" id="nomeDoOuvinte" name="nomeDoOuvinte"
+                    style="width: 300px" required minlength="2" class="form-control">&nbsp;
+
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome"
+                    style="width: 423px;" required minlength="2" class="form-control">
+                </article>
+                <br>
+                <article>
+                    <label for="email">E-mal:</label>
+                    <input type="email" name="emailDoOuvinte" id="emailDoOuvinte" style="width: 420px;"
+                     class="form-control">&nbsp;
+
+                     <label for="telefone">Fone:</label>
+                     <input type="text" name="telefone" id="telefone" style="146"
+                     required class="form-control">
+                     <br>
+                     <br>
+                </article>
+                
+                <article>
+                    <label for="bandasPreferidas">Digite as suas Bandas Preferidas:</label>
+                    <br>
+                    <textarea name="bandasPreferidas" id="bandasPreferidas" cols="70" rows="4" 
+                    style="border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 19px;">
+                </textarea>
+
+                </article>
+                <br><br>
+                <article style="text-align:center;" id="facefonte">
+                    <button type="submit" name="registrar" 
+                    style="text-align:center; padding: 18px; color: rgb(231, 231, 14); font-size: 17px;
+                     background-color: rgb(23, 17, 114); font-family: 'maiden.ttf';">
+                     Registrar o pedido musical o recado ou a mensagem</button>
+                    
+                    <button type="reset" name="resetar" 
+                    style="padding: 18px; color: rgb(231, 231, 14); font-size: 17px;
+                    background-color: rgb(143, 9, 9) ; font-family: 'maiden.ttf';">
+                    Apagar o Preenchimeto do Pedido ou Mensagem</button>
+                
+                </article>
+
+                
+            </section>
+
+            
+            
+        </form>
+    </main>
+    
+</body>
+</html>
